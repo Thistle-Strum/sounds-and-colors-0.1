@@ -133,7 +133,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .loadingCircle1,
@@ -385,6 +384,10 @@ footer {
     height: 310px;
     margin-bottom: 40px;
   }
+  .headphonesPrompt{
+    top: -21px;
+  }
+
   .colors {
     margin: 10% 10% 0 10%;
   }
