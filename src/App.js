@@ -296,7 +296,7 @@ function App() {
           <PlayerButtons  playButton={play} stopButton={stop} />
         </div>
 
-        { width <= 600 && playButton ? <p className='headphonesPrompt'>If there is no audio, <br/>please try using headphones</p> : null}
+        { width <= 600 && playButton ? <p className='headphonesPrompt'>If you do not hear any sound, <br/>please try using headphones</p> : null}
 
           <HexColorCodes listHexCodes={colors} painting={painting} />
         
